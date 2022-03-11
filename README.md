@@ -1,2 +1,3 @@
-# eCat
-Docs and examples for the eCat specification, a catalog standard for furniture and living sectors
+# eCatalog
+
+Docs and examples for the eCat/LTX specification, a catalog standard for furniture and living sector.
