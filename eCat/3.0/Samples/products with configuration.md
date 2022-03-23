@@ -1,0 +1,690 @@
+```xml
+<Catalog>
+-<General>
+-<Sender>
+ <ID>200</ID>
+ <Name>LS/ANKER</Name>
+ </Sender>
+ <Version>LS/Anker</Version>
+ <Validfrom>20111010</Validfrom>
+ <Validto>20111031</Validto>
+ </General>
+-<OptionGTINDefinitions>
+-<OptionDefinition>
+ <GTIN>5499990000001</GTIN>
+ <Description language="NL">Breedte</Description>
+-<Values>
+ <Value>5499990000002</Value> - <!-- 070 -->
+ <Value>5499990000003</Value> - <!-- 080 -->
+ <Value>5499990000004</Value> - <!-- 090 -->
+ </Values>
+ </OptionDefinition>
+-<OptionDefinition>
+ <GTIN>5499990000005</GTIN>
+ <Description language="NL">Lengte</Description>
+-<Values>
+ <Value>5499990000006</Value> - <!-- 190 -->
+ <Value>5499990000007</Value> - <!-- 200 -->
+ <Value>5499990000008</Value> - <!-- 210 -->
+ <Value>5499990000009</Value> - <!-- 220 -->
+ </Values>
+ </OptionDefinition>
+-<OptionDefinition>
+ <GTIN>5499990000014</GTIN>
+ <Description language="NL">Comfort</Description>
+-<Values>
+ <Value>5499990000016</Value> - <!-- Firm -->
+ <Value>5499990000017</Value> - <!-- Soft -->
+ <Value>5499990000018</Value> - <!-- Medium -->
+ </Values>
+ </OptionDefinition>
+-<OptionDefinition>
+ <GTIN>5499990000015</GTIN>
+ <Description language="NL">Hoes</Description>
+ </OptionDefinition>
+-<OptionDefinition>
+ <GTIN>5499990000021</GTIN>
+ <Description language="NL">Split</Description>
+ </OptionDefinition>
+-<OptionDefinition>
+ <GTIN>5499990000026</GTIN>
+ <Description language="NL">Kernhoes anti-allergisch</Description>
+ </OptionDefinition>
+ </OptionGTINDefinitions>
+-<ValueGTINDefinitions>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000002</GTIN>
+ <Description language="NL">070</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000003</GTIN>
+ <Description language="NL">080</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000004</GTIN>
+ <Description language="NL">090</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000006</GTIN>
+ <Description language="NL">190</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000007</GTIN>
+ <Description language="NL">200</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000008</GTIN>
+ <Description language="NL">210</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000009</GTIN>
+ <Description language="NL">220</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000016</GTIN>
+ <Description language="NL">Firm</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000017</GTIN>
+ <Description language="NL">Soft</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000018</GTIN>
+ <Description language="NL">Medium</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000022</GTIN>
+ <Description language="NL">Geen</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000023</GTIN>
+ <Description language="NL">Split aan hoofd -en voeteinde</Description>
+-<Values>
+ <Value>5499990000034</Value> - <!-- Manueel -->
+ </Values>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000024</GTIN>
+ <Description language="NL">Split aan hoofdeinde</Description>
+-<Values>
+ <Value>5499990000034</Value> - <!-- Manueel -->
+ </Values>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000025</GTIN>
+ <Description language="NL">Cover up kernhoes</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000027</GTIN>
+ <Description language="NL">Ergo Alpura</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000028</GTIN>
+ <Description language="NL">Ergo Sensea New</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000029</GTIN>
+ <Description language="NL">Ergo Reviva</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000030</GTIN>
+ <Description language="NL">140</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000031</GTIN>
+ <Description language="NL">160</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000033</GTIN>
+ <Description language="NL">180</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000034</GTIN>
+ <Description language="NL">Manueel</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000035</GTIN>
+ <Description language="NL">Automatisch</Description>
+ </ValueDefinition>
+-<ValueDefinition type="Value">
+ <GTIN>5499990000037</GTIN>
+ <Description language="NL">Automatisch met afstandsbediening</Description>
+ </ValueDefinition>
+ </ValueGTINDefinitions>
+-<Programs>
+-<Program>
+ <GTIN>5499990000010</GTIN>
+ <Description language="NL">Ergosleep</Description>
+-<Program>
+ <GTIN>5499990000011</GTIN>
+ <Description language="NL">Ergosleep matras</Description>
+-<Program>
+ <GTIN>5499990000012</GTIN>
+ <Description language="NL">Ergosleep matras latex</Description>
+-<Articles>
+-<Article>
+ <GTIN>5499990000019</GTIN>
+ <Description language="NL">Matras Ergo Latex 300</Description>
+-<Options>
+-<Option order="50" definition="Program">
+ <GTIN>5499990000001</GTIN> - <!-- Breedte -->
+-<Values>- <!--Breedte heeft std values 70,80,90 maar hier worden nog extra value gedefinieerd -->
+ <Value definition="Program">5499990000030</Value> - <!-- 140 -->
+ <Value definition="Program">5499990000031</Value> - <!-- 160 -->
+ <Value definition="Program">5499990000033</Value> - <!-- 180 -->
+ </Values>
+ </Option>
+-<Option order="60" definition="Program">
+ <GTIN>5499990000005</GTIN> - <!-- Lengte -->
+ </Option>
+-<Option order="10" definition="Program">- <!-- Comfort -->
+ <GTIN>5499990000014</GTIN>
+ </Option>
+-<Option order="20" definition="Program">- <!-- Hoes -->
+ <GTIN>5499990000015</GTIN>
+-<Values>
+ <Value definition="Program">5499990000027</Value> - <!-- Ergo alpura -->
+ <Value definition="Program">5499990000028</Value> - <!-- Ergo sensea new -->
+ <Value definition="Program">5499990000029</Value> - <!-- Reviva -->
+ </Values>
+ </Option>
+-<Option order="70" definition="Article">
+ <GTIN>5499990000021</GTIN> - <!-- split -->
+-<Values>
+ <Value definition="Article">5499990000022</Value> - <!-- geen -->
+ <Value definition="Article">5499990000023</Value> - <!--Split aan hoofd -en voeteinde -->
+ <Value definition="Article">5499990000024</Value> - <!-- Split aan hoofdeinde -->
+ </Values>
+ </Option>
+-<Option order="65" definition="Article">
+ <GTIN>5499990000026</GTIN> - <!--Kernhoes anti-allergisch  -->
+-<Values>
+ <Value definition="Article">5499990000022</Value> - <!-- geen -->
+ <Value definition="Article">5499990000025</Value> - <!-- Cover up kernhoes -->
+ </Values>
+ </Option>
+ </Options>
+-<Configurations>
+-<Configuration action="Add">- <!--subvalue toevoegen -->
+ <OptionToConfigure>5499990000021|5499990000023</OptionToConfigure> - <!-- split | split aan hoofd en voeteinde -->
+ <ValueToConfigure>5499990000035</ValueToConfigure> - <!-- automatisch -->
+ </Configuration>
+-<Configuration action="Add">- <!--subvalue toevoegen -->
+ <OptionToConfigure>5499990000021|5499990000023</OptionToConfigure> - <!-- split | split aan hoofd en voeteinde -->
+ <ValueToConfigure>5499990000037</ValueToConfigure> - <!-- automatisch met afstandsbediening -->
+ </Configuration>
+-<Configuration action="Remove">
+ <OptionToConfigure>5499990000026</OptionToConfigure> - <!--Kernhoes anti-allergisch  -->
+ <ValueToConfigure/>
+-<Conditions type="IF CONDITIONS MET">- <!--optie is niet mogelijk als: ...  -->
+-<Condition>
+ <Option>5499990000015</Option> - <!--Hoes  -->
+-<Values>
+ <Value>5499990000028</Value> - <!-- Ergo sensea new -->
+ </Values>
+ </Condition>
+ </Conditions>
+ </Configuration>
+-<Configuration action="Remove">
+ <OptionToConfigure>5499990000021</OptionToConfigure> - <!--Split  -->
+ <ValueToConfigure>5499990000023</ValueToConfigure> - <!--split aan hoofd en voeteinde-  -->
+-<Conditions type="IF CONDITIONS NOT MET">- <!--value is niet mogelijk tenzij voldaan is aan  -->
+-<Condition>
+ <Option>5499990000001</Option> - <!--Breedte  -->
+-<Values>
+ <Value>5499990000030</Value> - <!--140  -->
+ <Value>5499990000031</Value> - <!--160  -->
+ <Value>5499990000033</Value> - <!--180  -->
+ </Values>
+ </Condition>
+ </Conditions>
+ </Configuration>
+-<Configuration action="Remove">
+ <OptionToConfigure>5499990000021</OptionToConfigure> - <!--Split  -->
+ <ValueToConfigure>5499990000024</ValueToConfigure> - <!--Split aan hoofdeinde -->
+-<Conditions type="IF CONDITIONS MET">- <!--value is niet mogelijk als voldaan is aan  -->
+-<Condition>
+ <Option>5499990000001</Option> - <!--Breedte  -->
+-<Values>
+ <Value>5499990000002</Value> - <!--70  -->
+ <Value>5499990000003</Value> - <!--80  -->
+ <Value>5499990000004</Value> - <!--90  -->
+ </Values>
+ </Condition>
+ </Conditions>
+ </Configuration>
+ </Configurations>
+-<Prices>
+-<Price>
+ <SalesPrice>300.00</SalesPrice>
+ <RetailPrice>600.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option> - <!--Breedte  -->
+ <Value>5499990000030</Value> - <!--140  -->
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option> - <!--Hoes  -->
+ <Value>5499990000027</Value> - <!--Ergo Alpura  -->
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>320.00</SalesPrice>
+ <RetailPrice>640.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option> - <!--Breedte  -->
+ <Value>5499990000030</Value> - <!--140  -->
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option> - <!--Hoes  -->
+ <Value>5499990000028</Value> - <!--Ergo sensea new  -->
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>340.00</SalesPrice>
+ <RetailPrice>680.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000030</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000029</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>350.00</SalesPrice>
+ <RetailPrice>700.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000031</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000027</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>370.00</SalesPrice>
+ <RetailPrice>740.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000031</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000028</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>390.00</SalesPrice>
+ <RetailPrice>780.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000031</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000029</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>400.00</SalesPrice>
+ <RetailPrice>800.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000033</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000027</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>420.00</SalesPrice>
+ <RetailPrice>840.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000033</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000028</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>440.00</SalesPrice>
+ <RetailPrice>880.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000033</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000029</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>150.00</SalesPrice>
+ <RetailPrice>300.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000002</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000027</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>160.00</SalesPrice>
+ <RetailPrice>320.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000002</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000028</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>170.00</SalesPrice>
+ <RetailPrice>340.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000002</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000029</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>175.00</SalesPrice>
+ <RetailPrice>350.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000003</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000027</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>185.00</SalesPrice>
+ <RetailPrice>370.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000003</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000028</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>195.00</SalesPrice>
+ <RetailPrice>390.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000003</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000029</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>200.00</SalesPrice>
+ <RetailPrice>400.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000004</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000027</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>210.00</SalesPrice>
+ <RetailPrice>420.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000004</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000028</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>220.00</SalesPrice>
+ <RetailPrice>440.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000001</Option>
+ <Value>5499990000004</Value>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option>
+ <Value>5499990000029</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>100.00</SalesPrice>
+ <RetailPrice>200.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000026</Option>
+ <Value>5499990000025</Value>
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>50.00</SalesPrice>
+ <RetailPrice>100.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000021</Option>- <!--split  -->
+ <Value>5499990000023</Value> - <!--split aan hoofd en voeteinde  -->
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>25.00</SalesPrice>
+ <RetailPrice>50.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000021</Option>- <!--Split  -->
+ <Value>5499990000024</Value> - <!--split aan hoofdeinde  -->
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>- <!--meerprijs voor een subvalue  -->
+ <SalesPrice>125.00</SalesPrice>
+ <RetailPrice>250.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000021|5499990000023</Option> - <!--Split | split aan hoofd en voeteinde  -->
+ <Value>5499990000037</Value> - <!--automatisch met afstandsbediening  -->
+ </Condition>
+ </Conditions>
+ </Price>
+-<Price>
+ <SalesPrice>100.00</SalesPrice>
+ <RetailPrice>200.00</RetailPrice>
+-<Conditions>
+-<Condition>
+ <Option>5499990000021|5499990000023</Option> - <!--Split | split aan hoofd en voeteinde  -->
+ <Value>5499990000035</Value>- <!--Automatisch  -->
+ </Condition>
+ </Conditions>
+ </Price>
+ </Prices>
+ </Article>
+-<Article>
+ <GTIN>5499990000020</GTIN>
+ <Description language="NL">Matras Ergo Latex 550</Description>
+-<Options>
+-<Option order="50" definition="Program">
+ <GTIN>5499990000001</GTIN>
+-<Values>
+ <Value definition="Program">5499990000030</Value>
+ <Value definition="Program">5499990000031</Value>
+ <Value definition="Program">5499990000033</Value>
+ </Values>
+ </Option>
+-<Option order="60" definition="Program">
+ <GTIN>5499990000005</GTIN>
+ </Option>
+-<Option order="10" definition="Program">
+ <GTIN>5499990000014</GTIN>
+ </Option>
+-<Option order="20" definition="Program">
+ <GTIN>5499990000015</GTIN>
+-<Values>
+ <Value definition="Program">5499990000027</Value>
+ <Value definition="Program">5499990000028</Value>
+ <Value definition="Program">5499990000029</Value>
+ </Values>
+ </Option>
+-<Option order="70" definition="Article">
+ <GTIN>5499990000021</GTIN>
+-<Values>
+ <Value definition="Article">5499990000022</Value>
+ <Value definition="Article">5499990000023</Value>
+ <Value definition="Article">5499990000024</Value>
+ </Values>
+ </Option>
+-<Option order="65" definition="Article">
+ <GTIN>5499990000026</GTIN>
+-<Values>
+ <Value definition="Article">5499990000022</Value>
+ <Value definition="Article">5499990000025</Value>
+ </Values>
+ </Option>
+ </Options>
+-<Configurations>
+-<Configuration action="Add">
+ <OptionToConfigure>5499990000021|5499990000023</OptionToConfigure>
+ <ValueToConfigure>5499990000035</ValueToConfigure>
+ </Configuration>
+-<Configuration action="Add">
+ <OptionToConfigure>5499990000021|5499990000023</OptionToConfigure>
+ <ValueToConfigure>5499990000037</ValueToConfigure>
+ </Configuration>
+-<Configuration action="Remove">
+ <OptionToConfigure>5499990000021</OptionToConfigure>
+ <ValueToConfigure>5499990000023</ValueToConfigure>
+-<Conditions type="IF CONDITIONS NOT MET">
+-<Condition>
+ <Option>5499990000001</Option>
+-<Values>
+ <Value>5499990000030</Value>
+ <Value>5499990000031</Value>
+ <Value>5499990000033</Value>
+ </Values>
+ </Condition>
+ </Conditions>
+ </Configuration>
+-<Configuration action="Remove">
+ <OptionToConfigure>5499990000021</OptionToConfigure>
+ <ValueToConfigure>5499990000024</ValueToConfigure>
+-<Conditions type="IF CONDITIONS MET">
+-<Condition>
+ <Option>5499990000001</Option>
+-<Values>
+ <Value>5499990000002</Value>
+ <Value>5499990000003</Value>
+ <Value>5499990000004</Value>
+ </Values>
+ </Condition>
+ </Conditions>
+ </Configuration>
+-<Configuration action="Remove">
+ <OptionToConfigure>5499990000026</OptionToConfigure>
+ <ValueToConfigure/>
+-<Conditions type="IF CONDITIONS MET">
+-<Condition>
+ <Option>5499990000015</Option>
+-<Values>
+ <Value>5499990000028</Value>
+ </Values>
+ </Condition>
+ </Conditions>
+ </Configuration>
+ </Configurations>
+ </Article>
+ </Articles>
+-<Configurations>- <!--Configuratieregels op programma niveau, geldend voor alle artikelen van dit programma  -->
+-<Configuration action="Remove">- <!--deze value is niet mogelijk  -->
+ <OptionToConfigure>5499990000014</OptionToConfigure> - <!--Comfort  -->
+ <ValueToConfigure>5499990000018</ValueToConfigure> - <!--Medium  -->
+ </Configuration>
+-<Configuration action="Remove">
+ <OptionToConfigure>5499990000005</OptionToConfigure> - <!--Lengte  -->
+ <ValueToConfigure>5499990000009</ValueToConfigure> - <!--220  -->
+-<Conditions type="IF CONDITIONS MET">- <!--is niet mogelijk als: ...  -->
+-<Condition>
+ <Option>5499990000014</Option>- <!--Comfort  -->
+-<Values>
+ <Value>5499990000016</Value> - <!--Firm -->
+ </Values>
+ </Condition>
+-<Condition>
+ <Option>5499990000015</Option> - <!--en hoes =  -->
+-<Values>
+ <Value>5499990000027</Value>- <!--Ergo Alpura  -->
+ <Value>5499990000029</Value> - <!--of Ergo Reviva  -->
+ </Values>
+ </Condition>
+ </Conditions>
+ </Configuration>
+ </Configurations>
+ </Program>
+-<Program>
+ <GTIN>5499990000013</GTIN>
+ <Description language="NL">Ergosleep matras pocketveren</Description>
+ </Program>
+ </Program>
+ </Program>
+ </Programs>
+ </Catalog>
+```
