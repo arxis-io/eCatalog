@@ -282,40 +282,39 @@ A product can also be used as value. If this is the case, then the useAsValue at
 Example:
 
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <Articles>
-<Article order="010" useAsValue=”true”>
-<GTIN>1234567890123</GTIN>
-<Description>OHIO 2 zit met relax</Description>
-<Description language="FR">OHIO 2 places avec relax</Description>
-<Reference>2ZR</Reference>
-<EcoMobilier>9876543</EcoMobilier>
-<Valumat>01020106</Valumat>
-<Size unit="CM">
-<Height>80.00</Height>
-<Width>200.00</Width>
-<Depth>100.00</Depth>
-<SittingDepth>100.00</ SittingDepth >
-<SittingHeight>100.00</ SittingHeight >
-</Size>
-<Weigth unit="KG">10</Weigth>
-<WeigthPackaging unit="KG">10</ WeigthPackaging>
-<Volume unit="M³">2,365</Volume>
-<AmountCollis>5</ AmountCollis>
-<AssemblyTime unit="MIN">2</AssemblyTime>
-<VIV>
-<VIV1>OVMM_VIV1281</VIV1>
-</VIV>
-<Intrastat>12345678</Intrastat>
-<CountryOrigin>BE</ CountryOrigin>
-<Options>…</Options>
-<Configurations>…</Configurations>
-<Properties>…</Properties>
-<References>…</ References>
-<Prices>…</Prices>
-</Article>
-<Article>
-…
-</Article>
+  <Article order="010" useAsValue="true">
+    <GTIN>1234567890123</GTIN>
+    <Description>OHIO 2 zit met relax</Description>
+    <Description language="FR">OHIO 2 places avec relax</Description>
+    <Reference>2ZR</Reference>
+    <EcoMobilier>9876543</EcoMobilier>
+    <Valumat>01020106</Valumat>
+    <Size unit="CM">
+      <Height>80.00</Height>
+      <Width>200.00</Width>
+      <Depth>100.00</Depth>
+      <SittingDepth>100.00</SittingDepth>
+      <SittingHeight>100.00</SittingHeight>
+    </Size>
+    <Weigth unit="KG">10</Weigth>
+    <WeigthPackaging unit="KG">10</WeigthPackaging>
+    <Volume unit="M³">2,365</Volume>
+    <AmountCollis>5</AmountCollis>
+    <AssemblyTime unit="MIN">2</AssemblyTime>
+    <VIV>
+      <VIV1>OVMM_VIV1281</VIV1>
+    </VIV>
+    <Intrastat>12345678</Intrastat>
+    <CountryOrigin>BE</CountryOrigin>
+    <Options>…</Options>
+    <Configurations>…</Configurations>
+    <Properties>…</Properties>
+    <References>…</References>
+    <Prices>…</Prices>
+  </Article>
+  <Article>…</Article>
 </Articles>
 ```
 
@@ -332,23 +331,21 @@ Example
 
 ```xml
 <Options>
-<Option order="010"definition="Program">
-<GTIN>5412345000004</GTIN>
-<Values>
-<Value order="010"definition="Article">
-<GTIN>5412345000005</GTIN>
-<Values>
-<Value order="010"definition="Article">5412345000008</Value>
-<Value order="020"definition="Article">5412345000009</Value>
-</Values>
-</Value>
-<Value order="020"definition="Article">5412345000006</Value>
-<Value order="030"definition="Program">5412345000007</Value>
-</Values>
-</Option>
-<Optionorder="020">
-…
-</Option>
+  <Option order="010" definition="Program">
+    <GTIN>5412345000004</GTIN>
+    <Values>
+      <Value order="010" definition="Article">
+        <GTIN>5412345000005</GTIN>
+        <Values>
+          <Value order="010" definition="Article">5412345000008</Value>
+          <Value order="020" definition="Article">5412345000009</Value>
+        </Values>
+      </Value>
+      <Value order="020" definition="Article">5412345000006</Value>
+      <Value order="030" definition="Program">5412345000007</Value>
+    </Values>
+  </Option>
+  <Option order="020">…</Option>
 </Options>
 ```
 
@@ -367,10 +364,10 @@ The value ‘Red’ is not possible within a leather class for a certain product
 
 ```xml
 <Configurations>
-<Configuration action="Remove">
-<OptionToConfigure>Tissue|Leather class A</OptionToConfigure>
-<ValueToConfigure>Red</ValueToConfigure>
-</Configuration>
+  <Configuration action="Remove">
+    <OptionToConfigure>Tissue|Leather class A</OptionToConfigure>
+    <ValueToConfigure>Red</ValueToConfigure>
+  </Configuration>
 </Configurations>
 ```
 
@@ -379,14 +376,14 @@ For the value ‘blue’ you can have extra choices (subvalues) for a particular
 
 ```xml
 <Configurations>
-<Configuration action="Add"order="010">
-<OptionToConfigure>Tissue|Leather A|Blue</OptionToConfigure>
-<ValueToConfigure>Azure</ValueToConfigure>
-</Configuration>
-<Configuration action="Add"order="020">
-<OptionToConfigure> Tissue|Leather A|Blue </OptionToConfigure>
-<ValueToConfigure>Sky</ValueToConfigure>
-</Configuration>
+  <Configuration action="Add" order="010">
+    <OptionToConfigure>Tissue|Leather A|Blue</OptionToConfigure>
+    <ValueToConfigure>Azure</ValueToConfigure>
+  </Configuration>
+  <Configuration action="Add" order="020">
+    <OptionToConfigure>Tissue|Leather A|Blue</OptionToConfigure>
+    <ValueToConfigure>Sky</ValueToConfigure>
+  </Configuration>
 </Configurations>
 ```
 
@@ -399,27 +396,27 @@ Upholstery of the cushions is not possible in leather class B, if the sofa itsel
 
 ```xml
 <Configurations>
-<Configuration action="Remove">
-<OptionToConfigure>Upholstery cushions</OptionToConfigure>
-<ValueToConfigure>leather class B</ValueToConfigure>
-<Conditions type="IF CONDITIONS MET">
-<Condition>
-<Option>Upholstery</Option>
-<Values>
-<Value>Leather A</Value>
-<Value>Leather C</Value>
-<Value>Leather D|Black</Value>
-<Value>Leather D|White</Value>
-</Values>
-</Condition>
-<Condition>
-<Option>Seating comfort</Option>
-<Values>
-<Value>Firm</Value>
-</Values>
-</Condition>
-</Conditions>
-</Configuration>
+  <Configuration action="Remove">
+    <OptionToConfigure>Upholstery cushions</OptionToConfigure>
+    <ValueToConfigure>leather class B</ValueToConfigure>
+    <Conditions type="IF CONDITIONS MET">
+      <Condition>
+        <Option>Upholstery</Option>
+        <Values>
+          <Value>Leather A</Value>
+          <Value>Leather C</Value>
+          <Value>Leather D|Black</Value>
+          <Value>Leather D|White</Value>
+        </Values>
+      </Condition>
+      <Condition>
+        <Option>Seating comfort</Option>
+        <Values>
+          <Value>Firm</Value>
+        </Values>
+      </Condition>
+    </Conditions>
+  </Configuration>
 </Configurations>
 ```
 
@@ -448,26 +445,27 @@ The different dimensions, the different weights, the assembly time, the volume a
 Example:
 
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <Properties>
-<Property>
-<Option>1234567890123|21325454545454</ Option >
-	<Value>1234567890321</ Value >
-<Size unit="CM">
-<Height>80.00</Height>
-<Width>200.00</Width>
-<Depth>100.00</Depth>
-<SittingDepth>100.00</ SittingDepth >
-<SittingHeight>100.00</ SittingHeight >
-</Size>
-<Intrastat>12345678</Intrastat>
-<EcoMobilier>123456</EcoMobilier>
-<Valumat>01020106</Valumat>
-<Volume unit="M³">2,365</Volume>
-<AmountCollis>3</ AmountCollis>
-<AssemblyTime unit="MIN">2</AssemblyTime>
-<Weigth unit="KG">10</Weigth>
-<WeigthPackaging unit="KG">1</ WeigthPackaging>
-</Property>
+  <Property>
+    <Option>1234567890123|21325454545454</Option>
+    <Value>1234567890321</Value>
+    <Size unit="CM">
+      <Height>80.00</Height>
+      <Width>200.00</Width>
+      <Depth>100.00</Depth>
+      <SittingDepth>100.00</SittingDepth>
+      <SittingHeight>100.00</SittingHeight>
+    </Size>
+    <Intrastat>12345678</Intrastat>
+    <EcoMobilier>123456</EcoMobilier>
+    <Valumat>01020106</Valumat>
+    <Volume unit="M³">2,365</Volume>
+    <AmountCollis>3</AmountCollis>
+    <AssemblyTime unit="MIN">2</AssemblyTime>
+    <Weigth unit="KG">10</Weigth>
+    <WeigthPackaging unit="KG">1</WeigthPackaging>
+  </Property>
 </Properties>
 ```
 
@@ -481,16 +479,16 @@ Example:
 
 ```xml
 <References>
-<Reference>
-<Option>Upholstry</Option>
-<Value>Blue</Value>
-<ArticleReference>A123456</ ArticleReference>
-</Reference>
-<Reference>
-<Option>Upholstry</Option>
-<Value>Red</Value>
-<ArticleReference>B33556</ArticleReference>
-</Reference>
+  <Reference>
+    <Option>Upholstry</Option>
+    <Value>Blue</Value>
+    <ArticleReference>A123456</ArticleReference>
+  </Reference>
+  <Reference>
+    <Option>Upholstry</Option>
+    <Value>Red</Value>
+    <ArticleReference>B33556</ArticleReference>
+  </Reference>
 </References>
 ```
 
@@ -511,41 +509,41 @@ Example
 
 ```xml
 <Prices>
-<Price>
-<SalesPrice>450,00</SalesPrice>
-<RetailPrice>900,00</RetailPrice>
-<SurchargePrecentage>0</SurchargePrecentage>
-</Price>
-<Price>
-<SalesPrice>50,00</SalesPrice>
-<RetailPrice>100,00</RetailPrice>
-<SurchargePrecentage>0</SurchargePrecentage>
-<Conditions>
-<Condition>
-<Option>Upholstery</Option>
-<Value>Leather A</Value>
-</Condition>
-</Conditions>
-</Price>
-<Price>
-<SalesPrice>150,00</SalesPrice>
-<RetailPrice>300,00</RetailPrice>
-<SurchargePrecentage>0</SurchargePrecentage>
-<Conditions>
-<Condition>
-<Option> Upholstery|Leather A</Option>
-<Value>Blue</Value>
-</Condition>
-<Condition>
-<Option>Seating comfort</Option>
-<Value>Firm</Value>
-</Condition>
-<Condition>
-<Option>Upholstery cushions|leather A</Option>
-<Value>Black</Value>
-</Condition>
-</Conditions>
-</Price>
+  <Price>
+    <SalesPrice>450,00</SalesPrice>
+    <RetailPrice>900,00</RetailPrice>
+    <SurchargePrecentage>0</SurchargePrecentage>
+  </Price>
+  <Price>
+    <SalesPrice>50,00</SalesPrice>
+    <RetailPrice>100,00</RetailPrice>
+    <SurchargePrecentage>0</SurchargePrecentage>
+    <Conditions>
+      <Condition>
+        <Option>Upholstery</Option>
+        <Value>Leather A</Value>
+      </Condition>
+    </Conditions>
+  </Price>
+  <Price>
+    <SalesPrice>150,00</SalesPrice>
+    <RetailPrice>300,00</RetailPrice>
+    <SurchargePrecentage>0</SurchargePrecentage>
+    <Conditions>
+      <Condition>
+        <Option>Upholstery|Leather A</Option>
+        <Value>Blue</Value>
+      </Condition>
+      <Condition>
+        <Option>Seating comfort</Option>
+        <Value>Firm</Value>
+      </Condition>
+      <Condition>
+        <Option>Upholstery cushions|leather A</Option>
+        <Value>Black</Value>
+      </Condition>
+    </Conditions>
+  </Price>
 </Prices>
 ```
 
