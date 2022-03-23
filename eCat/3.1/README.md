@@ -1,13 +1,13 @@
 # eCat 3.1
 
-eCat 3.1 is the successor of eCat 3.0. Please check the changelog to see what's added or changed.
+eCat 3.1 is the successor of eCat 3.0. Please check below to see what's added or changed. To see the 3.0 spec please check [eCat 3.0 Specification](../3.0/Spec.md).
 
 ## Changelog
 
 - Added unit
 - Added classification
 
-## Unit
+### Unit
 
 ```xml
 <Article order="0">
@@ -22,7 +22,7 @@ eCat 3.1 is the successor of eCat 3.0. Please check the changelog to see what's 
 Unit is used to indicate what the basic unit is for this article. This can be used as purchase unit (so the retailer sends the order to the supplier) but also as sales unit (the retailer sells it to a customer)
 There is no validation for the value because there is no good (ISO) standard for this yet.
 
-## Classification
+### Classification
 
 ```xml
 <Article order="0">
