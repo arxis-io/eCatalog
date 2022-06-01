@@ -1,3 +1,3 @@
-# eCat 2.0
+# ECAT 2.0
 
-Please check the Word document for more info.
+The base version, as defined by Dries Vermont from IniTeam
