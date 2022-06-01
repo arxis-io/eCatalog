@@ -1,4 +1,4 @@
-# Arxis ECAT Standard and Developments
+# Arxis ECAT Support and Developments
 
 This document is to service all Retail Software Systems connected to the Arxis Ecosystem. Arxis guarantees fileformat build up according to the ECAT 2.0 standard, extended with the below mentioned additions.
 We allow room for each individual Retail Software System to develop on top of these standard and we will add these to their own formats, yet guarantee the ability to download in the format as supported by each Retail Software Systems.
