@@ -1,6 +1,7 @@
 # ECAT 2.0
 
-Download the document for the full documentation.
+Download the document for the full documentation: [eCat XML 2.0.docx](https://github.com/Arxis-io/eCatalog/files/8812514/eCat.XML.2.0.docx)
+
 
 ECAT 2.0 forms the base version, as defined by Dries Vermont from IniTeam.
 
