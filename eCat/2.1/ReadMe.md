@@ -1,7 +1,8 @@
 # ECAT 2.1
 
-Extended with: 
-‘useAsValue’
+## Extended with:
+
+- useAsValue
 
 
 A product GTIN can also be used as a value within an option. The only thing this does, is using the same GTIN code and descriptions of the product, for the value. This GTIN act as a normal value. This value doesn’t act as a sub-product configuration. If the product itself has a options and values, these are not inherent within the value of the other, main product.

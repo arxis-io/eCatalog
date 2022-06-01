@@ -1,7 +1,8 @@
 # ECAT 2.2
 
-Extended with: 
-Valumat – Belgian eco tax for matrasses
+## Extended with:
+
+- Valumat 'Belgian eco tax for matrasses'
 
 Similar to the already included <EcoMobilier> code that is widely used in France, the <Valumat> is supporting the ability to communicate the Belgian environmental tax information that belongs to the article included in the catalog.
 
@@ -11,7 +12,7 @@ Similar to the already included <EcoMobilier> code that is widely used in France
 <Description language="FR">OHIO 2 places avec relax</Description>
 <Reference>2ZR</Reference>
 <EcoMobilier>9876543</EcoMobilier>			
-<Valumat>01020106</Valumat>
+### <Valumat>01020106</Valumat>
 <Size unit="CM">
 <Height>80.00</Height>
 <Width>200.00</Width>
