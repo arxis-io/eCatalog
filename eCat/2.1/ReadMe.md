@@ -10,6 +10,7 @@ Same for the prices. A price defined on the product, doesn’t count on the valu
 
 
 To define that a product can also be used as a value, you’ll have to add the attribute ‘useAsValue’ within the ‘Article’ tag.
+
 <Article order="010" useAsValue=”true”>
   
 In the value definition, you’ll have to set the type to ‘Article’ and use the same attribute ‘useAsValue’.
