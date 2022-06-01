@@ -6,6 +6,7 @@
 
 Similar to the already included <EcoMobilier> code that is widely used in France, the <Valumat> is supporting the ability to communicate the Belgian environmental tax information that belongs to the article included in the catalog.
 
+```xml
 <Article order="010" useAsValue=”true”>
 	<GTIN>1234567890123</GTIN>
 	<Description>OHIO 2 zit met relax</Description>
@@ -36,3 +37,4 @@ Similar to the already included <EcoMobilier> code that is widely used in France
 	<References>…</ References>
 	<Prices>…</Prices>
 </Article>
+```
