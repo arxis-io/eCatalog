@@ -14,7 +14,7 @@ Next to this, we’ve agreed on a text-field tag “Additional Description” to
 And the third addition to this version is to communicate the brand name of the article in a separate field as well. Especially in case of multi-supplier or multi-brand catalogs, this is a necessary addition.
 
 
-### Example <General>
+### Example General
 
 ```xml
 Catalog>
@@ -57,9 +57,12 @@ Catalog>
 	</Settings>
 </General> 
 
+```
 
-#### Example AdditionDescription, PromoPrice and Brand
+### Example AdditionDescription, PromoPrice and Brand
+
 Below is an example article which has been enriched by all three new tags as described above.
+
 
 ```xml
   <Article>
@@ -91,4 +94,3 @@ Below is an example article which has been enriched by all three new tags as des
         </Article>
 
 ```
-
