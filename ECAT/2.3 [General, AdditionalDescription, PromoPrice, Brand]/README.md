@@ -3,12 +3,12 @@
 
 ## Extended with:
 
-- More details in <General>
+- More details in General
 - AdditionalDescription
 - PromoPrices
 - Brand
 
-The <General> section has been expanded by Arxis to service the option to extend and enrich the catalog with Receiver & Sender identification, version-numbering en availibility information.
+The General section has been expanded by Arxis to service the option to extend and enrich the catalog with Receiver & Sender identification, version-numbering en availibility information.
 
 Next to this, we’ve agreed on a text-field tag “Additional Description” to have an extra slot for product-information. As we see a few more ‘flat’ article suppliers enter our eco-system the need for ‘promo-prices’ rose as well. A supplier can use this to communicate two different retail prices. 
 And the third addition to this version is to communicate the brand name of the article in a separate field as well. Especially in case of multi-supplier or multi-brand catalogs, this is a necessary addition.
