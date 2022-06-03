@@ -3,15 +3,62 @@
 
 ## Extended with:
 
+- More details in <General>
 - AdditionalDescription
 - PromoPrices
 - Brand
 
-There was a urgent need for more room for article descriptions. We’ve agreed on a text-field tag “Additional Description” to have an extra slot for product-information. As we see a few more ‘flat’ article suppliers enter our eco-system the need for ‘promo-prices’ rose as well. A supplier can use this to communicate two different retail prices. 
+The <General> section has been expanded by Arxis to service the option to extend and enrich the catalog with Receiver & Sender identification, version-numbering en availibility information.
+
+Next to this, we’ve agreed on a text-field tag “Additional Description” to have an extra slot for product-information. As we see a few more ‘flat’ article suppliers enter our eco-system the need for ‘promo-prices’ rose as well. A supplier can use this to communicate two different retail prices. 
 And the third addition to this version is to communicate the brand name of the article in a separate field as well. Especially in case of multi-supplier or multi-brand catalogs, this is a necessary addition.
 
 
-### Example
+### Example <General>
+
+```xml
+Catalog>
+<General>
+	<Receiver>
+		<ArxisID>10000010</ArxisID> 
+		<!-- [Arxis ID van Retailer] [Vult Arxis altijd]-->
+		<GLN>8713782213835</GLN> 
+		<!-- [GLN van Retailer] [Indien leeg: Arxis vult eventueel aan]-->
+	</Receiver>
+	<CustomerID>31_LS</CustomerID> 
+	<!-- [Debiteurnummer retailer] [Leeg: Arxis vult eventueel aan met identificatienummer]-->
+	<Sender>
+		<ArxisID>10000019</ArxisID> 
+		<!-- [Arxis ID van Leverancier] [Vult Arxis altijd]-->
+		<Name>LS Bedding</Name> 
+		<!-- [Naam van Leverancier] [Vult Arxis altijd]-->
+		<GLN>5414662999971</GLN> 
+		<!-- [GLN van Leverancier] [Vult Arxis altijd]-->
+	</Sender>
+	<Name>Catalogus Naam</Name> 
+	<!-- [Titel van catalogus] [Vult Arxis indien leeg]-->
+	<Version>Catalog v201106</Version> 
+	<!-- [Versienummer van Leverancier]-->
+	<ArxisCatalogNR>6</ArxisCatalogNR > 
+	<!-- [Versie/Volgnummer van Arxis] [Vult Arxis altijd]-->	
+	<Validfrom>20110101</Validfrom> 
+	<!-- [Leeg: Arxis vult eventueel aan, met beschikbaarheidsdata van Arxis]-->
+	<Validto>20111231</Validto> 
+	<!-- [Leeg: Arxis vult eventueel aan, met beschikbaarheidsdata van Arxis]-->
+	<Currency> 
+		<SalesPrice>EUR</SalesPrice>
+		<!-- [Of van Leverancier, of Default = EUR]-->
+		<RetailPrice>EUR</RetailPrice> 
+		<!-- [Of van Leverancier, of Default = EUR]-->
+	</Currency>
+	<Settings> 
+		<DefaultLanguage>NL</DefaultLanguage> 
+		<!-- [Of van Leverancier, of Default = NL]-->
+	</Settings>
+</General> 
+
+
+#### Example AdditionDescription, PromoPrice and Brand
 
 ```xml
   <Article>
