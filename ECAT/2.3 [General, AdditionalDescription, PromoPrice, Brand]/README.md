@@ -24,9 +24,10 @@ Catalog>
 		<!-- [Arxis ID from Retailer] [Arxis always fills]-->
 		<GLN>8713782213835</GLN> 
 		<!-- [GLN from Retailer] [If empty: Arxis might fill]-->
+    <CustomerID>31_LS</CustomerID> 
+	  <!-- [Debtornumber retailer] [If empty: Arxis might fill with identification number]-->
 	</Receiver>
-	<CustomerID>31_LS</CustomerID> 
-	<!-- [Debtornumber retailer] [If empty: Arxis might fill with identification number]-->
+	
 	<Sender>
 		<ArxisID>10000019</ArxisID> 
 		<!-- [Arxis ID from Supplier] [Arxis always fills]-->
