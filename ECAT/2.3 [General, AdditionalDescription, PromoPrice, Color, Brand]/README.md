@@ -46,7 +46,7 @@ Catalog>
 	<Validfrom>20110101</Validfrom> 
 	<!-- [If empty: Arxis might fill, with availability dates on Arxis]-->
 	<Validto>20111231</Validto> 
-	<!-- [If empty: Arxis might filln, with availability dates on Arxis]-->
+	<!-- [If empty: Arxis might fill, with availability dates on Arxis]-->
 	<Currency> 
 		<SalesPrice>EUR</SalesPrice>
 		<!-- [From Supplier, or Default = EUR]-->
