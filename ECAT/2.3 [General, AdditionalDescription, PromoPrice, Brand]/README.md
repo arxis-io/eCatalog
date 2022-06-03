@@ -21,44 +21,45 @@ Catalog>
 <General>
 	<Receiver>
 		<ArxisID>10000010</ArxisID> 
-		<!-- [Arxis ID van Retailer] [Vult Arxis altijd]-->
+		<!-- [Arxis ID from Retailer] [Arxis always fills]-->
 		<GLN>8713782213835</GLN> 
-		<!-- [GLN van Retailer] [Indien leeg: Arxis vult eventueel aan]-->
+		<!-- [GLN from Retailer] [If empty: Arxis might fill]-->
 	</Receiver>
 	<CustomerID>31_LS</CustomerID> 
-	<!-- [Debiteurnummer retailer] [Leeg: Arxis vult eventueel aan met identificatienummer]-->
+	<!-- [Debtornumber retailer] [If empty: Arxis might fill with identification number]-->
 	<Sender>
 		<ArxisID>10000019</ArxisID> 
-		<!-- [Arxis ID van Leverancier] [Vult Arxis altijd]-->
+		<!-- [Arxis ID from Supplier] [Arxis always fills]-->
 		<Name>LS Bedding</Name> 
-		<!-- [Naam van Leverancier] [Vult Arxis altijd]-->
+		<!-- [Name Supplier] [Arxis always fills]-->
 		<GLN>5414662999971</GLN> 
-		<!-- [GLN van Leverancier] [Vult Arxis altijd]-->
+		<!-- [GLN from Supplier] [Arxis always fills, if added to Arxis]-->
 	</Sender>
 	<Name>Catalogus Naam</Name> 
-	<!-- [Titel van catalogus] [Vult Arxis indien leeg]-->
+	<!-- [Catalog title] [If empty: Arxis always fills]-->
 	<Version>Catalog v201106</Version> 
-	<!-- [Versienummer van Leverancier]-->
+	<!-- [Catalog version number from supplier]-->
 	<ArxisCatalogNR>6</ArxisCatalogNR > 
-	<!-- [Versie/Volgnummer van Arxis] [Vult Arxis altijd]-->	
+	<!-- [Version, Follownumber from Arxis] [Arxis always fills]-->	
 	<Validfrom>20110101</Validfrom> 
-	<!-- [Leeg: Arxis vult eventueel aan, met beschikbaarheidsdata van Arxis]-->
+	<!-- [If empty: Arxis might fill, with availability dates on Arxis]-->
 	<Validto>20111231</Validto> 
-	<!-- [Leeg: Arxis vult eventueel aan, met beschikbaarheidsdata van Arxis]-->
+	<!-- [If empty: Arxis might filln, with availability dates on Arxis]-->
 	<Currency> 
 		<SalesPrice>EUR</SalesPrice>
-		<!-- [Of van Leverancier, of Default = EUR]-->
+		<!-- [From Supplier, or Default = EUR]-->
 		<RetailPrice>EUR</RetailPrice> 
-		<!-- [Of van Leverancier, of Default = EUR]-->
+		<!-- [From Supplier, or Default = EUR]-->
 	</Currency>
 	<Settings> 
 		<DefaultLanguage>NL</DefaultLanguage> 
-		<!-- [Of van Leverancier, of Default = NL]-->
+		<!-- [From Supplier, or Default = NL]-->
 	</Settings>
 </General> 
 
 
 #### Example AdditionDescription, PromoPrice and Brand
+Below is an example article which has been enriched by all three new tags as described above.
 
 ```xml
   <Article>
