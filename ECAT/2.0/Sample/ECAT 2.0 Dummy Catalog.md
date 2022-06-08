@@ -1,46 +1,25 @@
-This is the Dummy Catalog, in ECAT 2.3 language.
+This is the Dummy Catalog, in ECAT 2.0 language.
+
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Catalog>
 <General>
-	<Receiver>
-		<ArxisID>10000017</ArxisID> 
-		<!-- [Arxis ID van Retailer] [Vult Arxis altijd]-->
-		<GLN>8900010000017</GLN> 
-		<!-- [GLN van Retailer] [Indien leeg: Arxis vult eventueel aan]-->
-		<CustomerID>123456</CustomerID> 
-	<!-- [Debiteurnummer retailer] [Leeg: Arxis vult eventueel aan met identificatienummer]-->
-	</Receiver>
-	<Sender>
-		<ArxisID>10000030</ArxisID> 
-		<!-- [Arxis ID van Leverancier] [Vult Arxis altijd]-->
-		<Name>Demo Supplier</Name> 
-		<!-- [Naam van Leverancier] [Vult Arxis altijd]-->
-		<GLN>5999999999999</GLN> 
-		<!-- [GLN van Leverancier] [Vult Arxis altijd]-->
-	</Sender>
-	<Name>Catalogus Naam</Name> 
-	<!-- [Titel van catalogus] [Vult Arxis indien leeg]-->
-	<Version>Catalog v202206</Version> 
-	<!-- [Versienummer van Leverancier]-->
-	<ArxisCatalogNR>999</ArxisCatalogNR > 
-	<!-- [Versie/Volgnummer van Arxis] [Vult Arxis altijd]-->	
-	<Validfrom>20220601</Validfrom> 
-	<!-- [Leeg: Arxis vult eventueel aan, met beschikbaarheidsdata van Arxis]-->
-	<Validto>20221231</Validto> 
-	<!-- [Leeg: Arxis vult eventueel aan, met beschikbaarheidsdata van Arxis]-->
-	<Currency> 
-		<SalesPrice>EUR</SalesPrice>
-		<!-- [Of van Leverancier, of Default = EUR]-->
-		<RetailPrice>EUR</RetailPrice> 
-		<!-- [Of van Leverancier, of Default = EUR]-->
-	</Currency>
-	<Settings> 
-		<DefaultLanguage>NL</DefaultLanguage> 
-		<!-- [Of van Leverancier, of Default = NL]-->
-	</Settings>
-</General> 
+    <CustomerID>123456</CustomerID>
+    <Sender>
+      <ID>123456</ID>
+      <Name>Demo Supplier </Name>
+      <GLN>5999999999999</GLN>
+    </Sender>
+    <Version>ERGOSLEEP DEALERS NL</Version>
+    <Validfrom>20220601</Validfrom>
+    <Validto>20221231</Validto>
+    <CatalogueNr>999</CatalogueNr>
+    <Currency>
+      <SalesPrice>EUR</SalesPrice>
+      <RetailPrice>EUR</RetailPrice>
+    </Currency>
+  </General>
   <OptionGTINDefinitions>
     <OptionDefinition>
       <GTIN>5499990000001</GTIN>
@@ -136,6 +115,7 @@ This is the Dummy Catalog, in ECAT 2.3 language.
       <GTIN>5499990000018</GTIN>
       <Description language="NL">Medium</Description>
       <Reference>Mdm</Reference>
+    </ValueDefinition>
     <ValueDefinition type="Value">
       <GTIN>5499990000022</GTIN>
       <Description language="NL">Geen</Description>
@@ -205,12 +185,11 @@ This is the Dummy Catalog, in ECAT 2.3 language.
           <GTIN>5499990000012</GTIN>
           <Description language="NL">Matrassen</Description>
           <Articles>
-            <Article useAsValue="true">
+            <Article>
               <GTIN>5499990000019</GTIN>
               <Description language="NL">Matras Ergo Latex 300</Description>
 		<Reference>MEL300</Reference>
 		<EcoMobilier>9876543</EcoMobilier>			
-		<Valumat>01020106</Valumat>
 		<Size unit="CM">
 			<Height>80.00</Height>
 			<Width>200.00</Width>
@@ -866,7 +845,6 @@ This is the Dummy Catalog, in ECAT 2.3 language.
         <GTIN>5499990000022</GTIN>
         <Description language="NL">Plat Artikel</Description>
 	<Article>
-          <AdditionalDescription>badmatten Vandyck SCALA LUXURY BATHMAT</AdditionalDescription>
  	  <GTIN>8718471010177</GTIN>
           <Reference>BAAM11203 4 5</Reference>
           <Weight>0.00</Weight>
@@ -875,16 +853,9 @@ This is the Dummy Catalog, in ECAT 2.3 language.
             <Price>
               <SalesPrice>0</SalesPrice>
               <RetailPrice>99.95</RetailPrice>
-              <PromoPrices>
-                <PromoPrice>
-                  <Price>79.95</Price>
-                </PromoPrice>
-              </PromoPrices>
             </Price>
           </Prices>
           <CountryOrigin>Portugal</CountryOrigin>
-          <Brand>Vandyck</Brand>
-          <Color>white 4</Color>
           <Size>
             <Height>0.00</Height>
             <Width>0.00</Width>
