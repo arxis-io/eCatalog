@@ -64,7 +64,7 @@ Catalog>
 
 ### Example AdditionDescription, PromoPrice, Color and Brand
 
-Below is an example article which has been enriched by all three new tags as described above.
+Below is an example article which has been enriched by all four new tags as described above.
 
 
 ```xml
