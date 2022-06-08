@@ -2,7 +2,7 @@
 
 Download the document for the full documentation: [eCat XML 2.0.docx](https://github.com/Arxis-io/eCatalog/files/8812514/eCat.XML.2.0.docx)
 
-Download and use a Dummy Catalog in ECAT 2.0 format here: https://github.com/Arxis-io/eCatalog/blob/main/ECAT/2.0/Sample/Dummy%20Catalogus%20ECAT2.0.xml
+Download and use a Dummy Catalog in ECAT 2.0 format here: Arxis-io/eCatalog/ECAT/2.0/Sample/Dummy Catalogus ECAT2.0.xml
 
 
 ## ECAT 2.0 forms the base version, as defined by Dries Vermont from IniTeam.
