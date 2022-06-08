@@ -104,14 +104,17 @@ This is the Dummy Catalog, in ECAT 2.1 language.
     <ValueDefinition type="Value">
       <GTIN>5499990000016</GTIN>
       <Description language="NL">Firm</Description>
+      <Reference>Frm</Reference>
     </ValueDefinition>
     <ValueDefinition type="Value">
       <GTIN>5499990000017</GTIN>
       <Description language="NL">Soft</Description>
+      <Reference>Sft</Reference>
     </ValueDefinition>
     <ValueDefinition type="Value">
       <GTIN>5499990000018</GTIN>
       <Description language="NL">Medium</Description>
+      <Reference>Mdm</Reference>
     </ValueDefinition>
     <ValueDefinition type="Value">
       <GTIN>5499990000022</GTIN>
