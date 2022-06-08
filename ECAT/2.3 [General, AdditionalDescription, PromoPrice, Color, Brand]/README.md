@@ -1,6 +1,6 @@
 # ECAT 2.3
 
-Download and use a Dummy Catalog in ECAT 2.3 format here: [Dummy Catalogus ECAT 2.2](https://github.com/Arxis-io/eCatalog/blob/main/ECAT/2.3%20%5BGeneral%2C%20AdditionalDescription%2C%20PromoPrice%2C%20Color%2C%20Brand%5D/Sample/Dummy%20Catalogus%20ECAT2.3%20.xml)
+Download and use a Dummy Catalog in ECAT 2.3 format here: [Dummy Catalogus ECAT 2.3](https://github.com/Arxis-io/eCatalog/blob/main/ECAT/2.3%20%5BGeneral%2C%20AdditionalDescription%2C%20PromoPrice%2C%20Color%2C%20Brand%5D/Sample/Dummy%20Catalogus%20ECAT2.3%20.xml)
 
 ## Extended with:
 

@@ -1,6 +1,6 @@
 # ECAT 2.4
 
-Download and use a Dummy Catalog in ECAT 2.4 format here: [Dummy Catalogus ECAT 2.2](https://github.com/Arxis-io/eCatalog/blob/main/ECAT/2.4%20%5BUnit%2C%20Classification%2C%20OrderQuantity%2C%20RecommendedPrice%5D/Sample/Dummy%20Catalogus%20ECAT2.4.xml)
+Download and use a Dummy Catalog in ECAT 2.4 format here: [Dummy Catalogus ECAT 2.4](https://github.com/Arxis-io/eCatalog/blob/main/ECAT/2.4%20%5BUnit%2C%20Classification%2C%20OrderQuantity%2C%20RecommendedPrice%5D/Sample/Dummy%20Catalogus%20ECAT2.4.xml)
 
 ## Extended with:
 
