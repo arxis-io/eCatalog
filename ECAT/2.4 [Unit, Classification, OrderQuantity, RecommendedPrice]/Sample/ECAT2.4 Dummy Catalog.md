@@ -1,15 +1,46 @@
+This is the Dummy Catalog, in ECAT 2.4 language.
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Catalog>
-  <General>
-    <Sender>
-      <ID>200</ID>
-      <Name>LS/ANKER</Name>
-    </Sender>
-    <Version>LS/Anker</Version>
-    <Validfrom>20111010</Validfrom>
-    <Validto>20111031</Validto>
-  </General>
+<General>
+	<Receiver>
+		<ArxisID>10000017</ArxisID> 
+		<!-- [Arxis ID van Retailer] [Vult Arxis altijd]-->
+		<GLN>8900010000017</GLN> 
+		<!-- [GLN van Retailer] [Indien leeg: Arxis vult eventueel aan]-->
+		<CustomerID>123456</CustomerID> 
+	<!-- [Debiteurnummer retailer] [Leeg: Arxis vult eventueel aan met identificatienummer]-->
+	</Receiver>
+	<Sender>
+		<ArxisID>10000030</ArxisID> 
+		<!-- [Arxis ID van Leverancier] [Vult Arxis altijd]-->
+		<Name>Demo Supplier</Name> 
+		<!-- [Naam van Leverancier] [Vult Arxis altijd]-->
+		<GLN>5999999999999</GLN> 
+		<!-- [GLN van Leverancier] [Vult Arxis altijd]-->
+	</Sender>
+	<Name>Catalogus Naam</Name> 
+	<!-- [Titel van catalogus] [Vult Arxis indien leeg]-->
+	<Version>Catalog v202206</Version> 
+	<!-- [Versienummer van Leverancier]-->
+	<ArxisCatalogNR>999</ArxisCatalogNR > 
+	<!-- [Versie/Volgnummer van Arxis] [Vult Arxis altijd]-->	
+	<Validfrom>20220601</Validfrom> 
+	<!-- [Leeg: Arxis vult eventueel aan, met beschikbaarheidsdata van Arxis]-->
+	<Validto>20221231</Validto> 
+	<!-- [Leeg: Arxis vult eventueel aan, met beschikbaarheidsdata van Arxis]-->
+	<Currency> 
+		<SalesPrice>EUR</SalesPrice>
+		<!-- [Of van Leverancier, of Default = EUR]-->
+		<RetailPrice>EUR</RetailPrice> 
+		<!-- [Of van Leverancier, of Default = EUR]-->
+	</Currency>
+	<Settings> 
+		<DefaultLanguage>NL</DefaultLanguage> 
+		<!-- [Of van Leverancier, of Default = NL]-->
+	</Settings>
+</General> 
   <OptionGTINDefinitions>
     <OptionDefinition>
       <GTIN>5499990000001</GTIN>
@@ -165,19 +196,34 @@
     </ValueDefinition>
   </ValueGTINDefinitions>
   <Programs>
-    <Program>
-      <GTIN>5499990000010</GTIN>
-      <Description language="NL">Ergosleep</Description>
-      <Program>
+         <Program>
         <GTIN>5499990000011</GTIN>
-        <Description language="NL">Ergosleep matras</Description>
+        <Description language="NL">Configureerbaar Artikel</Description>
         <Program>
           <GTIN>5499990000012</GTIN>
-          <Description language="NL">Ergosleep matras latex</Description>
+          <Description language="NL">Matrassen</Description>
           <Articles>
-            <Article>
+            <Article useAsValue="true">
               <GTIN>5499990000019</GTIN>
               <Description language="NL">Matras Ergo Latex 300</Description>
+		<Reference>MEL300</Reference>
+		<EcoMobilier>9876543</EcoMobilier>			
+		<Valumat>01020106</Valumat>
+		<Size unit="CM">
+			<Height>80.00</Height>
+			<Width>200.00</Width>
+			<Depth>100.00</Depth>
+		</Size>
+		<Weigth unit="KG">10</Weigth>
+		<WeigthPackaging unit="KG">10</WeigthPackaging>
+		<Volume unit="M³">2,365</Volume>
+		<AmountCollis>5</AmountCollis>
+		<AssemblyTime unit="MIN">2</AssemblyTime>
+		<VIV>
+			<VIV1>OVMM_VIV1281</VIV1>
+		</VIV>
+		<Intrastat>12345678</Intrastat>
+		<CountryOrigin>BE</CountryOrigin>
               <Options>
                 <Option order="50" definition="Program">
                   <GTIN>5499990000001</GTIN>
@@ -813,12 +859,47 @@
             </Configuration>
           </Configurations>
         </Program>
-        <Program>
-          <GTIN>5499990000013</GTIN>
-          <Description language="NL">Ergosleep matras pocketveren</Description>
-        </Program>
       </Program>
-    </Program>
+   <Program>
+        <GTIN>5499990000022</GTIN>
+        <Description language="NL">Plat Artikel</Description>
+	<Article>
+          <AdditionalDescription>badmatten Vandyck SCALA LUXURY BATHMAT</AdditionalDescription>
+ 	  <GTIN>8718471010177</GTIN>
+          <Reference>BAAM11203 4 5</Reference>
+	 <Classification>001</Classification>
+	 <!--Classification determined by the supplier, grouping articles in a certain way  -->
+          <Weight>0.00</Weight>
+          <Description language="NL">badmatten Vandyck SCALA LUXURY BATHMAT white toiletmat 55x55</Description>
+          <Prices>
+            <Price>
+              <SalesPrice>0</SalesPrice>
+              <RetailPrice>99.95</RetailPrice>
+	     <RecommendedPrice>109.95</RecommendedPrice>
+	      <!--Recommended Price, Adviesprijs-->
+              <PromoPrices>
+                <PromoPrice>
+                  <Price>79.95</Price>
+                </PromoPrice>
+              </PromoPrices>
+            </Price>
+          </Prices>
+          <CountryOrigin>Portugal</CountryOrigin>
+          <Brand>Vandyck</Brand>
+          <Color>white 4</Color>
+	 <Unit>Stuks</Unit>
+	<!--Unit, Eenheid. This article is sold is this specific unit  -->
+	 <OrderQuantity>2</OrderQuantity>
+	<!--The article is being deliverd in batches of this OrderQuantity -->
+          <Size>
+            <Height>0.00</Height>
+            <Width>0.00</Width>
+            <Depth>0.00</Depth>
+          </Size>
+          <SupplierArticleDescription>white toiletmat 55x55</SupplierArticleDescription>
+        </Article>
+	   </Program>
   </Programs>
 </Catalog>
+
 ```

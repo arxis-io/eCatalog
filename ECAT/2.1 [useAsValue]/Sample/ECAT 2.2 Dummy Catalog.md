@@ -1,14 +1,24 @@
+This is the Dummy Catalog, in ECAT 2.1 language.
+
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Catalog>
-  <General>
+<General>
+    <CustomerID>123456</CustomerID>
     <Sender>
-      <ID>200</ID>
-      <Name>LS/ANKER</Name>
+      <ID>123456</ID>
+      <Name>Demo Supplier </Name>
+      <GLN>5999999999999</GLN>
     </Sender>
-    <Version>LS/Anker</Version>
-    <Validfrom>20111010</Validfrom>
-    <Validto>20111031</Validto>
+    <Version>ERGOSLEEP DEALERS NL</Version>
+    <Validfrom>20220601</Validfrom>
+    <Validto>20221231</Validto>
+    <CatalogueNr>999</CatalogueNr>
+    <Currency>
+      <SalesPrice>EUR</SalesPrice>
+      <RetailPrice>EUR</RetailPrice>
+    </Currency>
   </General>
   <OptionGTINDefinitions>
     <OptionDefinition>
@@ -165,19 +175,33 @@
     </ValueDefinition>
   </ValueGTINDefinitions>
   <Programs>
-    <Program>
-      <GTIN>5499990000010</GTIN>
-      <Description language="NL">Ergosleep</Description>
-      <Program>
+         <Program>
         <GTIN>5499990000011</GTIN>
-        <Description language="NL">Ergosleep matras</Description>
+        <Description language="NL">Configureerbaar Artikel</Description>
         <Program>
           <GTIN>5499990000012</GTIN>
-          <Description language="NL">Ergosleep matras latex</Description>
+          <Description language="NL">Matrassen</Description>
           <Articles>
-            <Article>
+            <Article useAsValue="true">
               <GTIN>5499990000019</GTIN>
               <Description language="NL">Matras Ergo Latex 300</Description>
+		<Reference>MEL300</Reference>
+		<EcoMobilier>9876543</EcoMobilier>			
+		<Size unit="CM">
+			<Height>80.00</Height>
+			<Width>200.00</Width>
+			<Depth>100.00</Depth>
+		</Size>
+		<Weigth unit="KG">10</Weigth>
+		<WeigthPackaging unit="KG">10</WeigthPackaging>
+		<Volume unit="M³">2,365</Volume>
+		<AmountCollis>5</AmountCollis>
+		<AssemblyTime unit="MIN">2</AssemblyTime>
+		<VIV>
+			<VIV1>OVMM_VIV1281</VIV1>
+		</VIV>
+		<Intrastat>12345678</Intrastat>
+		<CountryOrigin>BE</CountryOrigin>
               <Options>
                 <Option order="50" definition="Program">
                   <GTIN>5499990000001</GTIN>
@@ -813,12 +837,31 @@
             </Configuration>
           </Configurations>
         </Program>
-        <Program>
-          <GTIN>5499990000013</GTIN>
-          <Description language="NL">Ergosleep matras pocketveren</Description>
-        </Program>
       </Program>
-    </Program>
+   <Program>
+        <GTIN>5499990000022</GTIN>
+        <Description language="NL">Plat Artikel</Description>
+	<Article>
+ 	  <GTIN>8718471010177</GTIN>
+          <Reference>BAAM11203 4 5</Reference>
+          <Weight>0.00</Weight>
+          <Description language="NL">badmatten Vandyck SCALA LUXURY BATHMAT white toiletmat 55x55</Description>
+          <Prices>
+            <Price>
+              <SalesPrice>0</SalesPrice>
+              <RetailPrice>99.95</RetailPrice>
+            </Price>
+          </Prices>
+          <CountryOrigin>Portugal</CountryOrigin>
+          <Size>
+            <Height>0.00</Height>
+            <Width>0.00</Width>
+            <Depth>0.00</Depth>
+          </Size>
+          <SupplierArticleDescription>white toiletmat 55x55</SupplierArticleDescription>
+        </Article>
+	   </Program>
   </Programs>
 </Catalog>
+
 ```
