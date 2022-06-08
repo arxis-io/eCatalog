@@ -1,5 +1,7 @@
 # ECAT 2.2
 
+Download and use a Dummy Catalog in ECAT 2.0 format here: [Dummy Catalogus ECAT 2.2](https://github.com/Arxis-io/eCatalog/blob/main/ECAT/2.2%20%5BValumat%5D/Dummy%20Catalogus%20ECAT2.2%20.%20xml)
+
 ## Extended with:
 
 - Valumat 'Belgian eco tax for matrasses'
