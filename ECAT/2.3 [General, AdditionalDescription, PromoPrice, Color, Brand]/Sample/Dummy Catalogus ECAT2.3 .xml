@@ -119,7 +119,7 @@
       <GTIN>5499990000009</GTIN>
       <Description language="NL">220</Description>
     </ValueDefinition>
-    <ValueDefinition type="Value">
+   <ValueDefinition type="Value">
       <GTIN>5499990000016</GTIN>
       <Description language="NL">Firm</Description>
       <Reference>Frm</Reference>
@@ -133,6 +133,7 @@
       <GTIN>5499990000018</GTIN>
       <Description language="NL">Medium</Description>
       <Reference>Mdm</Reference>
+     </ValueDefinition>
     <ValueDefinition type="Value">
       <GTIN>5499990000022</GTIN>
       <Description language="NL">Geen</Description>

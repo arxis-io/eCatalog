@@ -136,6 +136,7 @@ This is the Dummy Catalog, in ECAT 2.3 language.
       <GTIN>5499990000018</GTIN>
       <Description language="NL">Medium</Description>
       <Reference>Mdm</Reference>
+    </ValueDefinition>
     <ValueDefinition type="Value">
       <GTIN>5499990000022</GTIN>
       <Description language="NL">Geen</Description>
