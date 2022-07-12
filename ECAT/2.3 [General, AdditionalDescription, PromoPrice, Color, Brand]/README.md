@@ -17,6 +17,7 @@ The General section has been expanded by Arxis to service the option to extend a
 
 Next to this, we’ve agreed on a text-field tag “Additional Description” to have an extra slot for product-information. As we see a few more ‘flat’ article suppliers enter our eco-system the need for ‘promo-prices’ rose as well. A supplier can use this to communicate two different retail prices. 
 Then we extend with the option to communicate the brand name and the color of the article in a separate tag as well. 
+
 The Multi Supplier support has been added to support the possibility to bundle multiple suppliers and their articles into one catalog. Mainly used by RSO's like VME, Interring i.e.
 
 
