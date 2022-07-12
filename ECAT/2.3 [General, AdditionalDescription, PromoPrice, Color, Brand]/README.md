@@ -9,11 +9,13 @@ Download and use a Dummy Catalog in ECAT 2.3 format here: [Dummy Catalogus ECAT 
 - PromoPrices
 - Color
 - Brand
+- Multi Supplier support
 
 The General section has been expanded by Arxis to service the option to extend and enrich the catalog with Receiver & Sender identification, version-numbering en availibility information.
 
 Next to this, we’ve agreed on a text-field tag “Additional Description” to have an extra slot for product-information. As we see a few more ‘flat’ article suppliers enter our eco-system the need for ‘promo-prices’ rose as well. A supplier can use this to communicate two different retail prices. 
 Then we extend with the option to communicate the brand name and the color of the article in a separate tag as well. 
+The Multi Supplier support has been added to support the possibility to bundle multiple suppliers and their articles into one catalog. Mainly used by RSO's like VME, Interring i.e.
 
 
 ### Example General
@@ -97,3 +99,57 @@ Below is an example article which has been enriched by all four new tags as desc
         </Article>
 
 ```
+
+### Multi Supplier support
+
+Multi Supplier support means 2 things:
+1. Supplier Definitions
+Describe and detail suppliers within the catalog XML with name, GTIN, address and contact information.
+2. Supplier GTIN on article level
+For every article, a Supplier GTIN is added, to communicate from which supplier (that is described under Supplier Definitions), the article is.
+
+```xml
+<SupplierDefinitions>
+<Supplier>
+<GTIN>9999990000019</GTIN>
+<Name>Polipol International GmbH Bereich Hukla</Name>
+<Street>Diepenauer Heide</Street>
+<HouseNumber>1</HouseNumber>
+<ZipCode>31603</ZipCode>
+<City>Diepenau</City>
+<CountryCode/>
+<Fax/>
+<Email>d.stork@polipol-international.com</Email>
+</Supplier>
+<Supplier>
+<GTIN>9999990000071</GTIN>
+<Name>Meubar (via V.D.M. Meubelagenturen bv)</Name>
+<Street>Industriestraat</Street>
+<HouseNumber>9</HouseNumber>
+<ZipCode>B8211</ZipCode>
+<City>Aartrijke</City>
+<CountryCode/>
+<Fax/>
+<Email>made1000@planet.nl</Email>
+</Supplier>
+
+And an Article:
+
+<Article>
+<GTIN>9810013194044</GTIN>
+<SupplierGTIN>9999990000019</SupplierGTIN> !This article belongs to the supplier, identified by this GTIN
+<Description>Relaxfauteuil Anne</Description>
+<SupplierArticleDescription/>
+<Reference>HU-CA19032</Reference>
+<Color/>
+<Classification>000</Classification>
+<Size unit="st">
+<Height>000</Height>
+<Width>000</Width>
+<Length>000</Length>
+</Size>
+<Options>
+<Option>
+
+```
+
