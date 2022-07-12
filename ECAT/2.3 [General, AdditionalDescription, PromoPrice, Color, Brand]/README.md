@@ -137,7 +137,9 @@ And an Article:
 
 <Article>
 <GTIN>9810013194044</GTIN>
-	<br><SupplierGTIN>9999990000019</SupplierGTIN></br>
+	
+<SupplierGTIN>9999990000019</SupplierGTIN>
+	
 <Description>Relaxfauteuil Anne</Description>
 <SupplierArticleDescription/>
 <Reference>HU-CA19032</Reference>
